@@ -1,3 +1,4 @@
+// Definiendo la clase Cliente
 public class Cliente {
     private String nombre;
     private int[] carroCompra;
@@ -6,6 +7,8 @@ public class Cliente {
         this.nombre = nombre;
         this.carroCompra = carroCompra;
     }
+
+    // metodos getter y setter
     public String getNombre() {
         return nombre;
     }

@@ -1,13 +1,18 @@
 public class EjemploSimple {
     public static void main(String[] args) {
+
+        // Creamos los clientes
         Cliente cliente1 = new Cliente("Cliente 1", new int[] {
             2, 2, 1, 5, 2, 3
         });
         Cliente cliente2 = new Cliente("Cliente 2", new int[] {
             1, 3, 5, 1, 1
         });
+
+        // Creamos las cajeras
         cajera cajera1 = new cajera("Cajera 1");
         cajera cajera2 = new cajera("Cajera 2");
+        
         // Tiempo inicial de referencia
         long initialTime = System.currentTimeMillis();
         cajera1.procesarCompra(cliente1, initialTime);
