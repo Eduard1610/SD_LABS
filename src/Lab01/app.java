@@ -1,12 +1,5 @@
-public class EjemploRunnable implements Runnable {
-    private Cliente cliente;
-    private cajera cajera;
-    private long initialTime;
-    public EjemploRunnable(Cliente cliente, cajera cajera, long initialTime) {
-        this.cajera = cajera;
-        this.cliente = cliente;
-        this.initialTime = initialTime;
-    }
+package Lab01;
+public class app {
     public static void main(String[] args) {
         Cliente cliente1 = new Cliente("Cliente 1", new int[] {
             2,
@@ -31,9 +24,5 @@ public class EjemploRunnable implements Runnable {
         Runnable proceso2 = new EjemploRunnable(cliente2, cajera2, initialTime);
         new Thread(proceso1).start();
         new Thread(proceso2).start();
-    }
-    @Override
-    public void run() {
-        this.cajera.procesarCompra(this.cliente, this.initialTime);
     }
 }

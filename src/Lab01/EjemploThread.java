@@ -1,3 +1,4 @@
+package Lab01;
 public class EjemploThread {
     public static void main(String[] args) {
         Cliente cliente1 = new Cliente("Cliente 1", new int[] {

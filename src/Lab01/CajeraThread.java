@@ -1,3 +1,4 @@
+package Lab01;
 public class CajeraThread extends Thread {
     private String nombre;
     private Cliente cliente;

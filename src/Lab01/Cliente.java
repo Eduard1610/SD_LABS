@@ -1,3 +1,4 @@
+package Lab01;
 // Definiendo la clase Cliente
 public class Cliente {
     private String nombre;

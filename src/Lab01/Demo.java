@@ -1,3 +1,4 @@
+package Lab01;
  class Consumidor extends Thread {
     private CubbyHole cubbyhole;
     private int numero;

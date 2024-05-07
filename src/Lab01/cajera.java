@@ -1,4 +1,6 @@
+package Lab01;
 // Definicion de la clase cajera
+
 public class cajera {
     private String nombre;
     public cajera() {}

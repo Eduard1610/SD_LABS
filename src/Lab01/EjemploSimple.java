@@ -1,3 +1,4 @@
+package Lab01;
 public class EjemploSimple {
     public static void main(String[] args) {
 
