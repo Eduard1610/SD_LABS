@@ -27,5 +27,5 @@ def iniciar_servidor():
         conexion.close()
 
 # funcion principal
-def main():
+if __name__ == '__main__':
     iniciar_servidor()
