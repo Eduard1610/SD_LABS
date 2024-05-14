@@ -1,6 +1,7 @@
 #Directories
 /bin
 /lib
+/env
 
 # Compiled class file
 *.class
