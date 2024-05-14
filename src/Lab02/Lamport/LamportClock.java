@@ -1,3 +1,4 @@
+package Lab02.Lamport;
 import java.util.ArrayList;
 import java.util.List;
 public class LamportClock {
