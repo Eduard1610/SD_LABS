@@ -25,7 +25,7 @@ public class LamportClock {
                 public void run() {
                     int time = clock.tick();
 
-
+                    
                      System.out.println("Thread " + Thread.currentThread().getId() + " created event with Lamport time " + time);
                         try {
                         Thread.sleep((long) (Math.random() * 1000));
