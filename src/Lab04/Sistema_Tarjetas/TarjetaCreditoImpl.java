@@ -3,6 +3,10 @@ import java.rmi.RemoteException;
 import Interfaces.ITarjetaCredito;
 
 public class TarjetaCreditoImpl implements ITarjetaCredito{
+    public TarjetaCreditoImpl() throws RemoteException{
+        super();
+    }
+
     @Override
     public boolean validarTarjeta(int numeroTarjeta) throws RemoteException{
         // aleatorio entre 0 y 1 para ver si la tarjeta es válida
