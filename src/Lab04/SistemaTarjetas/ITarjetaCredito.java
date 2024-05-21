@@ -1,6 +1,5 @@
 // interfaz para el objeto remoto TarjetaCredito
 
-package Interfaces;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

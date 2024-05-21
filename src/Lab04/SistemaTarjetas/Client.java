@@ -2,7 +2,6 @@ import java.rmi.Naming;
 import java.rmi.RemoteException;
 import java.net.MalformedURLException;
 import java.rmi.NotBoundException;
-import Interfaces.ITarjetaCredito;
 
 public class Client {
     public static void main(String[] args){

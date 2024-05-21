@@ -1,8 +1,8 @@
 import java.rmi.server.UnicastRemoteObject;
 import java.rmi.RemoteException;
-import Interfaces.ITarjetaCredito;
 
-public class TarjetaCreditoImpl implements ITarjetaCredito{
+
+public class TarjetaCreditoImpl extends UnicastRemoteObject implements ITarjetaCredito{
     public TarjetaCreditoImpl() throws RemoteException{
         super();
     }
