@@ -1,3 +1,4 @@
+package Lab04.SistemaTarjetas;
 import java.rmi.Naming;
 import java.rmi.RemoteException;
 import java.net.MalformedURLException;
@@ -11,7 +12,7 @@ public class Client {
 
         try{
             // se obtiene la referencia al objeto remoto
-            tarjetaCredito = (ITarjetaCredito)Naming.lookup("rmi://localhost/TarjetaCredito");
+            tarjetaCredito = (ITarjetaCredito)Naming.lookup("rmi://localhost/Service");
             // se invoca el método remoto
             boolean tarjetaValida = tarjetaCredito.validarTarjeta(123456789);
             if(tarjetaValida){
