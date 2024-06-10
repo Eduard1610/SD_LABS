@@ -16,6 +16,7 @@ public class Servidor {
                 skCliente.close(); //Cierra conexion con cliente
             }
             System.out.println("Demasiados clientes por hoy");
+            skServidor.close();
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
