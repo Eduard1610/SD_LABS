@@ -57,9 +57,9 @@ public class app {
         int idProy;
         int idIng;
         Scanner sc = new Scanner(System.in);
-        System.out.print("IDDpto: "); idProy = sc.nextInt();
+        System.out.print("Id Proyecto: "); idProy = sc.nextInt();
         sc.nextLine();
-        System.out.print("IDDpto: "); idIng = sc.nextInt();
+        System.out.print("Id Ingeniero: "); idIng = sc.nextInt();
         sc.nextLine();
 
         String sql = "{CALL sp_AsignarIngenieroAProyecto(?, ?)}";
