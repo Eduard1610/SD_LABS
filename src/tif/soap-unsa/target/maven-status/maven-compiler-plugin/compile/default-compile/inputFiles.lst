@@ -1,0 +1,14 @@
+/home/bryan/IdeaProjects/complete/src/main/java/com/example/producingwebservice/CountryEndpoint.java
+/home/bryan/IdeaProjects/complete/src/main/java/com/example/producingwebservice/CountryRepository.java
+/home/bryan/IdeaProjects/complete/src/main/java/com/example/producingwebservice/ProducingWebServiceApplication.java
+/home/bryan/IdeaProjects/complete/src/main/java/com/example/producingwebservice/WebServiceConfig.java
+/home/bryan/IdeaProjects/complete/target/generated-sources/jaxb/unsa/sd/soap/Country.java
+/home/bryan/IdeaProjects/complete/target/generated-sources/jaxb/unsa/sd/soap/Currency.java
+/home/bryan/IdeaProjects/complete/target/generated-sources/jaxb/unsa/sd/soap/GetCountryRequest.java
+/home/bryan/IdeaProjects/complete/target/generated-sources/jaxb/unsa/sd/soap/GetCountryResponse.java
+/home/bryan/IdeaProjects/complete/target/generated-sources/jaxb/unsa/sd/soap/GetCurrencyRequest.java
+/home/bryan/IdeaProjects/complete/target/generated-sources/jaxb/unsa/sd/soap/GetCurrencyResponse.java
+/home/bryan/IdeaProjects/complete/target/generated-sources/jaxb/unsa/sd/soap/GetExchangeRequest.java
+/home/bryan/IdeaProjects/complete/target/generated-sources/jaxb/unsa/sd/soap/GetExchangeResponse.java
+/home/bryan/IdeaProjects/complete/target/generated-sources/jaxb/unsa/sd/soap/ObjectFactory.java
+/home/bryan/IdeaProjects/complete/target/generated-sources/jaxb/unsa/sd/soap/package-info.java

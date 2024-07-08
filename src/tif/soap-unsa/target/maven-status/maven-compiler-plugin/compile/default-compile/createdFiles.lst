@@ -1,0 +1,14 @@
+com/example/producingwebservice/ProducingWebServiceApplication.class
+unsa/sd/soap/ObjectFactory.class
+com/example/producingwebservice/CountryRepository.class
+com/example/producingwebservice/WebServiceConfig.class
+unsa/sd/soap/Currency.class
+com/example/producingwebservice/CountryEndpoint.class
+unsa/sd/soap/GetCountryResponse.class
+unsa/sd/soap/GetExchangeResponse.class
+unsa/sd/soap/GetCurrencyResponse.class
+unsa/sd/soap/Country.class
+unsa/sd/soap/GetExchangeRequest.class
+unsa/sd/soap/package-info.class
+unsa/sd/soap/GetCountryRequest.class
+unsa/sd/soap/GetCurrencyRequest.class
